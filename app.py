@@ -17,7 +17,7 @@ def generate_fibonacci(n):
     return fib_sequence[:n]
 
 # Input for the number of Fibonacci numbers to generate
-n = st.number_input("Enter the number of Fibonacci numbers to generate:", min_value=1, max_value=100, value=10, step=1)
+n = st.number_input("Enter the number of Fibonacci numbers to generate:", min_value=1, max_value=1000, value=10, step=1)
 
 # Generate Fibonacci sequence
 fib_sequence = generate_fibonacci(n)
